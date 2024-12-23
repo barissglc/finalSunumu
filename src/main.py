@@ -23,3 +23,22 @@ class Greeter:
             return f"Good evening, {name}!"
         else:
             return f"Good night, {name}!"
+        
+    def personalized_greeting(self, name: str, age: int) -> str:
+        """
+        Kullanıcıya yaşına göre kişiselleştirilmiş bir mesaj döndürür.
+        Args:
+            name (str): Kullanıcının adı.
+            age (int): Kullanıcının yaşı.
+
+        Returns:
+            str: Kişiselleştirilmiş selamlama mesajı.
+        """
+        if age < 18:
+            return f"Hello, {name}! You are so young and full of energy!"
+        elif age < 50:
+            return f"Hello, {name}! You are in the prime of your life!"
+        else:
+            return f"Hello, {name}! Wisdom comes with age, doesn't it?"
+
+    
