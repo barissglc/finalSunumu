@@ -1,7 +1,7 @@
 """
 main.py
 
-Bu modül, selamlaşma ve veda işlemleri için Greeter sınıfını içerir.
+
 """
 from datetime import datetime
 
